@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.staffPanel">
+
+
+    <TextView
+        android:accessibilityLiveRegion="assertive"
+        android:gravity="center"
+        android:text="Suffah Grammar School\n-------- since 2009 --------"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/label"
+        android:background="#576370"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:background="#576370"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:id="@+id/Rlstaff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp">
+
+
+        <Button
+            android:id="@+id/staff_s_list"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#1874CD"
+            android:text="Student's list"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+
+        <Button
+            android:id="@+id/staff_s_diary"
+
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@+id/staff_s_list"
+            android:background="#7F00FF"
+            android:text="Student's diary"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/staff_s_NB"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/staff_s_list"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="#00c853"
+            android:text="Notice Board"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/staff_s_marks"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/staff_s_diary"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/staff_s_NB"
+            android:background="#b71c1c"
+            android:text="Enter Student Marks"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/staff_s_profile"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/staff_s_NB"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="#5d4037"
+            android:text="Profile"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/staff_s_fb"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/staff_s_marks"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/staff_s_profile"
+            android:background="#283593"
+            android:text="FaceBook"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/staff_ttable"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/staff_s_profile"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#7F00FF"
+            android:text="Time Table"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/st_menu"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/staff_ttable"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#00b0ff"
+            android:text="SignOut"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

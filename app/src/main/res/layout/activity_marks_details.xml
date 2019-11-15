@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.marksDetails">
+
+
+
+
+
+
+
+
+    <Button
+        android:background="#1874CD"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:id="@+id/m_test_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="monthly test 1"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#7F00FF"
+        android:layout_margin="10dp"
+        android:id="@+id/m_test_2"
+        android:layout_below="@+id/m_test_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="monthly test 2"/>
+
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#00c853"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/m_test_3"
+        android:layout_below="@+id/m_test_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="monthly test 3"/>
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="#b71c1c"
+        android:textColor="#ffffff"
+        android:layout_margin="10dp"
+        android:id="@+id/f_term"
+        android:layout_below="@+id/m_test_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Term"/>
+
+
+
+    <Button
+        android:background="#5d4037"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/s_term"
+        android:layout_below="@+id/f_term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Term"/>
+
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/t_term"
+        android:layout_below="@+id/s_term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third Term"
+        android:background="#283593"
+        android:textColor="#ffffff"
+        />
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.adminProfile">
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/adminlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Detail"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+    <TextView
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/adminemail"
+        android:layout_below="@+id/adminlabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        />
+
+
+    <EditText
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/adminpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adminemail"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+
+
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#00b0ff"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adminpass"
+        android:text="Change Password"
+        android:id="@+id/ad_change_pass"/>
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#ff5722"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ad_change_pass"
+        android:text="Cancel"
+        android:id="@+id/ad_pas_cancel"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.t_student_details">
+
+
+
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/sdet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student's Detail"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_below="@+id/sdet"
+        android:padding="8dp"
+        android:background="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#263238"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Name: "
+        android:id="@+id/t_stu_name"/>
+
+    <TextView
+        android:padding="8dp"
+        android:background="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#263238"
+        android:layout_marginTop="5dp"
+        android:text="Class: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/t_stu_class"
+        android:layout_below="@+id/t_stu_name"/>
+
+    <TextView
+        android:padding="8dp"
+        android:background="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#263238"
+        android:layout_marginTop="5dp"
+        android:text="RegId: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/t_stu_id"
+        android:layout_below="@+id/t_stu_class"/>
+
+
+    <EditText
+
+        android:padding="8dp"
+        android:background="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#263238"
+        android:layout_marginTop="15dp"
+        android:hint="Give a Comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/s_comment"
+        android:layout_below="@+id/t_stu_id"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#00b0ff"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s_comment"
+        android:text="Submit Comment"
+        android:id="@+id/s_submit_comment"/>
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#ff5722"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s_submit_comment"
+        android:text="Cancel"
+        android:id="@+id/s_cancel_data"
+        />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.AddUserForum">
+
+
+
+    <TextView
+        android:id="@+id/suser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="Select User"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:layout_below="@+id/suser"
+        android:layout_margin="10dp"
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </Spinner>
+
+
+    <TextView
+        android:layout_below="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Select Class"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/ssclass"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Spinner
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ssclass"
+        android:id="@+id/spinner2">
+    </Spinner>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LL"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/spinner2"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+
+
+
+
+            <EditText
+                android:textSize="20dp"
+                android:id="@+id/nametv"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:padding="5dp"/>
+
+
+            <EditText
+                android:layout_height="45dp"
+                android:textSize="20dp"
+                android:id="@+id/idtv"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:background="#ffffff"/>
+
+
+
+
+            <EditText
+                android:textSize="20dp"
+                android:id="@+id/passtv"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#ffffff"
+                android:inputType="textPassword"/>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:elevation="10dp"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LL"
+        android:layout_centerHorizontal="true"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:background="#7b1fa2"
+        android:id="@+id/submitbt"
+        android:padding="5dp"/>
+
+
+    <Button
+        android:elevation="10dp"
+        android:layout_margin="8dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submitbt"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cancelbt"
+        android:background="#0277bd"
+        android:text="cancel"
+        android:textColor="#ffffff"/>
+    
+</RelativeLayout>

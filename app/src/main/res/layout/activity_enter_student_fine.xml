@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.enterStudentFine">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student Fine Details"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/finelabel"/>
+
+            <TextView
+                android:layout_below="@+id/finelabel"
+                android:textColor="#263238"
+                android:background="#ffffff"
+                android:padding="8dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Name: "
+                android:id="@+id/d_stu_name"/>
+
+            <TextView
+                android:textColor="#263238"
+                android:background="#ffffff"
+                android:padding="8dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Class: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/d_stu_class"
+                android:layout_below="@+id/d_stu_name"/>
+
+            <TextView
+                android:textColor="#263238"
+                android:background="#ffffff"
+                android:padding="8dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="RegId: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/d_stu_id"
+                android:layout_below="@+id/d_stu_class"/>
+
+            <TextView
+                android:textColor="#263238"
+                android:background="#ffffff"
+                android:padding="8dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Password: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/d_stu_pass"
+                android:layout_below="@+id/d_stu_id"/>
+
+
+
+
+
+            <TextView
+                android:textColor="#00e5ff"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Absent Fine: "
+                android:layout_below="@+id/d_stu_pass"
+                android:id="@+id/d_absent_fine"/>
+
+            <TextView
+                android:textColor="#00e5ff"
+                android:id="@+id/d_absent_fine1"
+                android:text="0"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/d_absent_fine"
+                android:layout_below="@+id/d_stu_pass"
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:textColor="#00e5ff"
+                android:text="Late Fine: "
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/d_late_fine"
+                android:layout_below="@+id/d_absent_fine"/>
+
+
+
+            <TextView
+                android:textColor="#00e5ff"
+                android:id="@+id/d_late_fine1"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/d_late_fine"
+                android:layout_below="@+id/d_absent_fine"/>
+
+
+            <TextView
+                android:textColor="#00e5ff"
+                android:text="Uniform Fine: "
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/d_uniform_fine"
+                android:layout_below="@+id/d_late_fine1"/>
+
+
+
+
+            <TextView
+                android:textColor="#00e5ff"
+                android:id="@+id/d_uniform_fine1"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp"
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/d_uniform_fine"
+                android:layout_below="@+id/d_late_fine"/>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/LL"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/d_uniform_fine1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <Button
+                    android:textStyle="bold"
+                    android:layout_margin="5dp"
+                    android:textColor="#ffffff"
+                    android:background="#00b0ff"
+                    android:textSize="16sp"
+                    android:id="@+id/absent_bt"
+                    android:layout_weight="1"
+                    android:text="Absent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+                <Button
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:id="@+id/late_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#ff5722"
+                    android:text="Late"
+                    android:textColor="#ffffff" />
+
+
+                <Button
+                    android:id="@+id/uniform_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#7b1fa2"
+                    android:text="Uniform"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:background="#b71c1c"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/LL"
+                android:text="Give Comment"
+                android:id="@+id/ad_stucomment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:background="#b71c1c"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/ad_stucomment"
+                android:text="Student Marks"
+                android:id="@+id/ad_stuMarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <!--<Button
+                android:background="#b71c1c"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/ad_stuMarks"
+                android:text="cancel"
+                android:id="@+id/d_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+                -->
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.st_cls_list">
+
+
+
+    <TextView
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#00e5ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/d_classlabel"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/d_class_list"
+        android:layout_below="@+id/d_classlabel">
+
+    </ListView>
+
+
+</RelativeLayout>

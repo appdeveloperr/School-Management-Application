@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "431932629172",
+    "firebase_url": "https://schmngsys.firebaseio.com",
+    "project_id": "schmngsys",
+    "storage_bucket": "schmngsys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431932629172:android:77ce27abaa71b2c7",
+        "android_client_info": {
+          "package_name": "com.sgs.usmansh.schmngsys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431932629172-rq2kal4ni452hadolg1qrn574brdd2qp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sgs.usmansh.schmngsys",
+            "certificate_hash": "dcc0fb75b6a7d9643cd060018831029f888e8cf3"
+          }
+        },
+        {
+          "client_id": "431932629172-cjhtgoa2h3ch3gqb53332r9ugvqrl5io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrB2N0EbJc4qREzOs736Dif4OASuOA7ms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431932629172-cjhtgoa2h3ch3gqb53332r9ugvqrl5io.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

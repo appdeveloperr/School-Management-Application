@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.studentPanel">
+
+
+
+
+    <TextView
+        android:accessibilityLiveRegion="assertive"
+        android:gravity="center"
+        android:text="Suffah Grammar School\n-------- since 2009 --------"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/stulabel"
+        android:background="#576370"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/stuRL"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/stulabel">
+
+
+        <Button
+
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="#1874CD"
+            android:textColor="#ffffff"
+            android:text="Diary"
+            android:id="@+id/stu_dairy"
+            android:textSize="20sp"/>
+
+
+        <Button
+            android:background="#7F00FF"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:text="comment"
+            android:layout_toRightOf="@+id/stu_dairy"
+            android:id="@+id/stu_comment"/>
+
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="#00c853"
+            android:layout_below="@+id/stu_dairy"
+            android:text="Fine"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:id="@+id/stu_fine"
+            />
+
+
+        <Button
+            android:background="#b71c1c"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/stu_comment"
+            android:text="Marks"
+            android:id="@+id/stu_marks"
+            android:layout_toRightOf="@+id/stu_fine"/>
+
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/stu_fine"
+            android:id="@+id/stu_profile"
+            android:text="Profile"
+            android:background="#5d4037"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/stu_profile"
+            android:layout_below="@+id/stu_marks"
+            android:id="@+id/stu_fb"
+            android:text="FaceBook"
+            android:background="#283593"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+
+
+        <Button
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/stu_profile"
+            android:id="@+id/stu_NB"
+            android:text="Notice Board"
+            android:background="#00b0ff"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+
+
+
+        <Button
+
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/stu_NB"
+            android:id="@+id/stu_menu"
+            android:text="SignOut"
+            android:background="#00b0ff"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

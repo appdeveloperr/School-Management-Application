@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.enterStudentMarks">
+
+
+
+    <TextView
+        android:padding="6dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="#ffffff"
+        android:textColor="#263238"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Student Name: "
+        android:id="@+id/mrk_stu_name"/>
+
+
+
+    <TextView
+        android:textColor="#00e5ff"
+        android:padding="6dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mrk_stu_name"
+        android:textSize="20dp"
+        android:text="Select the type of marks:"
+        android:id="@+id/mrk_type"/>
+
+
+
+
+
+    <Spinner
+        android:popupBackground="#576370"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mrk_type"
+        android:id="@+id/markstype_spinner"
+        >
+
+    </Spinner>
+
+
+
+    <ScrollView
+        android:layout_below="@+id/markstype_spinner"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/RL">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        tools:ignore="UnknownId">
+
+
+        <TextView
+            android:textColor="#00e5ff"
+            android:layout_weight="1.5"
+            android:id="@+id/Sub1_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. English "
+            android:textSize="20sp"/>
+
+
+        <EditText
+            android:textColor="#00e5ff"
+            android:hint="Enter Sub 1 marks"
+            android:layout_weight="1.5"
+            android:id="@+id/mrk_sub_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/LL2"
+        android:layout_below="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+
+        <TextView
+            android:textColor="#00e5ff"
+
+            android:layout_weight="1.5"
+            android:id="@+id/Sub2_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Urdu "
+            android:textSize="20sp"/>
+
+
+
+        <EditText
+            android:textColor="#00e5ff"
+
+            android:hint="Enter Sub 2 marks"
+            android:layout_weight="1.5"
+            android:id="@+id/mrk_sub_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/LL3"
+        android:layout_below="@+id/LL2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+
+        <TextView
+            android:textColor="#00e5ff"
+            android:layout_weight="1.5"
+            android:id="@+id/Sub3_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Math"
+            android:textSize="20sp"/>
+
+
+        <EditText
+            android:textColor="#00e5ff"
+            android:hint="Enter Sub 3 marks"
+            android:layout_weight="1.5"
+            android:id="@+id/mrk_sub_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/LL4"
+        android:layout_below="@+id/LL3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+
+        <TextView
+            android:textColor="#00e5ff"
+
+            android:layout_weight="1.5"
+            android:id="@+id/Sub4_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Islamiyat "
+            android:textSize="20sp"/>
+
+
+        <EditText
+            android:textColor="#00e5ff"
+
+            android:hint="Enter Sub 4 marks"
+            android:layout_weight="1.5"
+            android:id="@+id/mrk_sub_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/LL5"
+        android:layout_below="@+id/LL4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+
+        <TextView
+            android:textColor="#00e5ff"
+            android:layout_weight="1.5"
+            android:id="@+id/Sub5_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Science "
+            android:textSize="20sp"/>
+
+
+        <EditText
+            android:textColor="#00e5ff"
+            android:hint="Enter Sub 5 marks"
+            android:layout_weight="1.5"
+            android:id="@+id/mrk_sub_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/LL6"
+        android:layout_below="@+id/LL5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+
+        <TextView
+            android:textColor="#00e5ff"
+            android:layout_weight="1.5"
+            android:id="@+id/Sub6_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Social Studies "
+            android:textSize="20dp"/>
+
+
+        <EditText
+            android:textColor="#00e5ff"
+            android:hint="Enter Sub 6 marks"
+            android:layout_weight="1.5"
+            android:id="@+id/mrk_sub_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/LL7"
+        android:layout_below="@+id/LL6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+
+        <TextView
+            android:textColor="#00e5ff"
+            android:layout_weight="1.5"
+            android:id="@+id/Sub7_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Computer"
+            android:textSize="20sp"/>
+
+
+        <EditText
+            android:textColor="#00e5ff"
+            android:hint="Enter Sub 7 marks"
+            android:layout_weight="1.5"
+            android:id="@+id/mrk_sub_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/LL8"
+        android:layout_below="@+id/LL7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+
+        <TextView
+            android:textColor="#00e5ff"
+            android:layout_weight="1.5"
+            android:id="@+id/Sub8_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Physics "
+            android:textSize="20sp"/>
+
+
+
+        <EditText
+            android:textColor="#00e5ff"
+            android:hint="Enter Sub 8 marks"
+            android:layout_weight="1.5"
+            android:id="@+id/mrk_sub_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/LL9"
+                android:layout_below="@+id/LL8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+
+                <TextView
+                    android:textColor="#00e5ff"
+                    android:layout_weight="1.5"
+                    android:id="@+id/Sub9_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9. Chemistry "
+                    android:textSize="20sp"/>
+
+
+
+                <EditText
+                    android:textColor="#00e5ff"
+                    android:hint="Enter Sub 9 marks"
+                    android:layout_weight="1.5"
+                    android:id="@+id/mrk_sub_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/LL10"
+                android:layout_below="@+id/LL9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+
+                <TextView
+                    android:textColor="#00e5ff"
+                    android:layout_weight="1.5"
+                    android:id="@+id/Sub10_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10. Nazra "
+                    android:textSize="20sp"/>
+
+
+
+                <EditText
+                    android:textColor="#00e5ff"
+                    android:hint="Enter Sub 10 marks"
+                    android:layout_weight="1.5"
+                    android:id="@+id/mrk_sub_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:textColor="#ffffff"
+                android:background="#00b0ff"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LL10"
+                android:textSize="20dp"
+                android:text="Submit marks"
+                android:id="@+id/submit_marks"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

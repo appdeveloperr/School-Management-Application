@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.stuDetails">
+
+
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/sid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student's Detail"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <EditText
+        android:padding="8dp"
+        android:background="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#263238"
+        android:layout_marginTop="5dp"
+        android:id="@+id/sname"
+        android:layout_below="@+id/sid"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        />
+
+
+    <EditText
+        android:padding="8dp"
+        android:background="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#263238"
+        android:id="@+id/sclass"
+        android:layout_below="@id/sname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+
+        />
+
+
+
+    <TextView
+        android:background="#ffffff"
+        android:textColor="#263238"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/sregid"
+        android:layout_below="@+id/sclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        />
+
+
+
+    <TextView
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/spass"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/sregid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        />
+
+
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#00b0ff"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spass"
+        android:id="@+id/deleteBt"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#ff5722"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="edit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deleteBt"
+        android:id="@+id/editBt"
+        />
+
+
+
+    <Button
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#00e676"
+        android:text="Cancel"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editBt"
+        android:id="@+id/canBt"/>
+
+
+</RelativeLayout>

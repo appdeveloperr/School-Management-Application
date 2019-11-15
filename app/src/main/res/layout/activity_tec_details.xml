@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.tecDetails">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teacher's Detail"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+       />
+
+
+    <EditText
+        android:padding="8dp"
+        android:background="#ffffff"
+        android:textColor="#263238"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tname"
+        android:layout_below="@+id/tid"
+        android:layout_width="match_parent"
+        android:text="TextView"
+        android:textSize="20dp"
+        />
+
+
+    <EditText
+
+        android:padding="8dp"
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tclass"
+        android:layout_below="@id/tname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+
+        />
+
+
+
+    <TextView
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tregid"
+        android:layout_below="@+id/tclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        />
+
+
+    <TextView
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tregid"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+
+
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="subject details"
+        android:textColor="#ffffff"
+        android:background="#00b0ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tpass"
+        android:id="@+id/subdetails"
+        />
+
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#ffffff"
+        android:background="#ff5722"
+        android:text="Delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subdetails"
+        android:id="@+id/deleteBt"/>
+
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#ffffff"
+        android:background="#00e676"
+        android:text="edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deleteBt"
+        android:id="@+id/editBt"
+        />
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#ffffff"
+        android:background="#d50000"
+        android:text="Cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editBt"
+        android:id="@+id/canBt"/>
+
+
+</RelativeLayout>

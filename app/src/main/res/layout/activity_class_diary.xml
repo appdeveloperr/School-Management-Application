@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.classDiary">
+
+
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cdr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Diary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:padding="8dp"
+        android:background="#ffffff"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#263238"
+        android:layout_below="@+id/cdr"
+        android:layout_marginTop="20dp"
+        android:hint="Enter The Diary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/class_diary"/>
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#00b0ff"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/class_diary"
+        android:text="Submit dairy"
+        android:id="@+id/s_submit_dairy"/>
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#ff5722"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s_submit_dairy"
+        android:text="Cancel"
+        android:id="@+id/s_cancel_dairy"
+        />
+
+
+</RelativeLayout>

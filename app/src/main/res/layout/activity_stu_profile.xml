@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+
+    tools:context="com.sgs.usmansh.schmngsys.stuProfile">
+
+
+
+    <TextView
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:text="Profile Details"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/stu_detals"
+        />
+
+
+
+
+    <TextView
+
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/stu_name_tv"
+        android:layout_below="@+id/stu_detals"/>
+
+
+
+    <TextView
+
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/stu_class_tv"
+        android:layout_below="@+id/stu_name_tv"/>
+
+
+    <TextView
+
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/stu_regid_tv"
+        android:layout_below="@+id/stu_class_tv"/>
+
+
+    <EditText
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/stu_pass_tv"
+        android:layout_below="@+id/stu_regid_tv"/>
+
+
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#00b0ff"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stu_pass_tv"
+        android:text="Change Password"
+        android:id="@+id/stu_change_pass"/>
+
+
+    <Button
+        android:textColor="#ffffff"
+        android:background="#ff5722"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stu_change_pass"
+        android:text="Cancel"
+        android:id="@+id/stu_not_change"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.Mark_class_list">
+
+
+
+
+    <TextView
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#00e5ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/mark_class_label"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mark_cls_list"
+        android:layout_below="@+id/mark_class_label">
+
+    </ListView>
+
+
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.AdminPanel">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <TextView
+                android:id="@+id/school_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:accessibilityLiveRegion="assertive"
+                android:gravity="center"
+                android:text="Suffah Grammar School\n-------- since 2009 --------"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/school_label">
+
+
+
+                <Button
+                    android:id="@+id/addUser"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="8dp"
+                    android:background="#1874CD"
+                    android:text="Add new User"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/userList"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_toRightOf="@+id/addUser"
+                    android:background="#7F00FF"
+                    android:text="Teacher's list"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+
+                <Button
+                    android:id="@+id/Stulist"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/userList"
+                    android:layout_weight="1"
+                    android:background="#00FF00"
+                    android:text="Student's list"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <com.github.rubensousa.raiflatbutton.RaiflatButton
+                    android:id="@+id/assignSub"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/Stulist"
+                    android:layout_below="@+id/userList"
+                    android:background="#FF2400"
+                    android:text="assign subjects"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/Stulist"
+                    android:id="@+id/admin_profile"
+                    android:text="Profile"
+                    android:background="#5d4037"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/admin_profile"
+                    android:layout_below="@+id/assignSub"
+                    android:id="@+id/admin_fb"
+                    android:text="FaceBook"
+                    android:background="#283593"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+
+
+
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_width="270dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/admin_profile"
+                    android:id="@+id/ad_NB"
+                    android:text="Notice Board"
+                    android:background="#00b0ff"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_width="270dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/ad_NB"
+                    android:id="@+id/ad_signout"
+                    android:text="SignOut"
+                    android:background="#00b0ff"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

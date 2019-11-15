@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sgs.usmansh.schmngsys">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sgs"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainLoginAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminPanel" />
+        <activity android:name=".AddUserForum" />
+        <activity android:name=".UserListAct" />
+        <activity android:name=".tecDetails" />
+        <activity android:name=".StuListAct" />
+        <activity android:name=".stuDetails" />
+        <activity android:name=".AssignSubjects" />
+        <activity android:name=".subDetails" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".staffPanel" />
+        <activity android:name=".studentPanel" />
+        <activity android:name=".staffClassPanel" />
+        <activity android:name=".st_cls_list" />
+        <activity android:name=".TeacherClassList" />
+        <activity android:name=".t_student_details" />
+        <activity android:name=".classDiary" />
+        <activity android:name=".Comment_class_list" />
+        <activity android:name=".enterStudentMarks" />
+        <activity android:name=".Mark_class_list" />
+        <activity android:name=".DeciplinePanel" />
+        <activity android:name=".enterStudentFine" />
+        <activity android:name=".stu_Diary" />
+        <activity android:name=".marksDetails" />
+        <activity android:name=".stuComment" />
+        <activity android:name=".stuFine" />
+        <activity android:name=".stuResult" />
+        <activity android:name=".staffProfile" />
+        <activity android:name=".stuProfile" />
+        <activity android:name=".adminProfile" />
+        <activity android:name=".staff_subDetails" />
+        <activity android:name=".noticeBoard" />
+        <activity android:name=".showNotice"></activity>
+    </application>
+
+</manifest>

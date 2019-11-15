@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#576370"
+    tools:context="com.sgs.usmansh.schmngsys.stuFine">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Student Fine"
+        android:id="@+id/flb"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"/>
+
+
+
+    <TextView
+        android:text="Absent Fine: 0"
+        android:layout_below="@+id/flb"
+        android:textColor="#263238"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:id="@+id/sh_Afine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+
+
+
+
+    <TextView
+        android:text="Late Fine: 0"
+        android:textColor="#263238"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/sh_Afine"
+        android:id="@+id/sh_Lfine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+
+
+
+
+    <TextView
+        android:text="Uniform Fine: 0"
+        android:background="#ffffff"
+        android:padding="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/sh_Lfine"
+        android:id="@+id/sh_Ufine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#263238"
+        />
+
+
+</RelativeLayout>
